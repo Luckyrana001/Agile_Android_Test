@@ -1,0 +1,12 @@
+include ':chapter_2_calculator' ,
+        ':chapter_1_calculator' ,
+        ':chapter_3_2_network_connect',
+        ':chapter_3_1_hello_roboelectric',
+        ':chapter_4_1_mockito_database',
+        ':chapter_4_2_mockito_settings',
+        ':chapter_4_3_mockito_shared_pref',
+        ':chapter_4_4_mockito_web_services',
+        ':chapter_5_ondata_test,' ,
+        ':chapter_6_1_zodiac_feature1',
+        ':chapter_6_2_zodiac_feature_2',
+        ':chapter_6_3_zodiac_feature_3'

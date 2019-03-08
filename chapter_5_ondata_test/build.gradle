@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.riis.ondata"
+        minSdkVersion 22
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    productFlavors {
+    }
+
+    android {
+        packagingOptions {
+            exclude 'LICENSE.txt'
+        }
+    }
+    lintOptions {                                                                                                                                   
+          abortOnError false                                                                                                                          
+    } 
+}
+
+dependencies {
+    androidTestImplementation 'com.android.support.test:runner:0.3'
+    androidTestImplementation 'com.android.support.test:rules:0.3'
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:2.2"
+}
